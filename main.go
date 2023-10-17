@@ -28,7 +28,7 @@ func main() {
 
 	http.Handle("/", r)
 
-	fmt.Println("Servidor rodando na porta 8080...")
+	fmt.Println("Servidor rodando na porta 8000...")
 	log.Fatal(http.ListenAndServe(":8000", r))
 }
 
