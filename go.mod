@@ -1,4 +1,4 @@
-module clients
+module github.com/KaennaGualoa/servidorclientes
 
 go 1.21.1
 
